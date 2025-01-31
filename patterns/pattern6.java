@@ -1,9 +1,6 @@
 package patterns;
 
 public class pattern6 {
-    public static void main(String[] args) {
-        printer(5);
-    }
     public static void printer(int n)
     {
         for(int row=1;row<=n;row++)
@@ -25,3 +22,12 @@ public class pattern6 {
         }
     }
 }
+
+/*
+        *********
+         *******
+          *****
+           ***
+            *
+
+*/

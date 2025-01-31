@@ -1,10 +1,7 @@
 package patterns;
 
 public class pattern1 {
-    public static void main(String[] args) 
-    {
-        patttern1(5);
-    }
+
     static void patttern1(int n)
     {
         for(int row=1;row<=2*n-1;row++)

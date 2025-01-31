@@ -1,14 +1,6 @@
-package Top50Arrays;//{ Driver Code Starts
-// Initial Template for Java
-
-import java.lang.*;
-
-
+package Top50Arrays;
 record Pair<K, V>(K key, V value) {
 }
-
-
-
 class Solution {
     public Pair<Long, Long> getMinMax(int[] arr) {
         long max=arr[0];
