@@ -21,6 +21,6 @@ public class peakindex852
             start=mid+1;
         }
        }
-       return start;
+       return end;
     }
 }

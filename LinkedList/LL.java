@@ -10,7 +10,7 @@ public class LL {
 
         this.size=0;
     }
-    public class Node{
+    private class Node{
         private int value;
         private Node next;
 
@@ -100,7 +100,7 @@ public class LL {
          return;
      }
      Node prev = get(index-1);
-     int val =prev.next.value;
+     int val =prev.value;
      prev.next=prev.next.next;
      System.out.printf("The deleted value is "+val+"\n");
     }

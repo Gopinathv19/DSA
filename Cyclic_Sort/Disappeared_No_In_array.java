@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Disappeared_No_In_array {
     public static void main(String[] args) {
-        int []nums={1,0,3,4};
+        int []nums={1,0,3,4,5,0,7,8,0,10};
         System.out.println(findDisappearedNumbers(nums));
     }
     public static List<Integer> findDisappearedNumbers(int[] nums) {
